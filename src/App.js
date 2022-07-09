@@ -5,7 +5,7 @@ import Home from './Components/Home';
 function App() {
   return (
     <div className="App">
-    <h2>Welcome to the React App</h2>
+    <h2>Welcome to my Bio Generator</h2>
      <Home />
     </div>
   );
