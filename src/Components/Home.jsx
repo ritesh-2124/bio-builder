@@ -1,6 +1,7 @@
 import { TextField } from '@mui/material';
 import React from 'react';
 import { useState } from 'react';
+import UploadButtons from './Upload';
 
 const Home = () => {
     const [name, setname] = useState('');
@@ -14,6 +15,7 @@ const Home = () => {
             setaddress(e.target.value)}
             } />
             <h2>hello i am {name} i am from {address}</h2>
+            <UploadButtons />
         </div>
     );
 }
